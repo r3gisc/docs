@@ -56,6 +56,7 @@ The following default options will be mixed in with your global `auth` object fr
   name: 'feathers-jwt', // the cookie name
   httpOnly: false, // when enabled, prevents the client from reading the cookie.
   secure: true // whether cookies should only be available over HTTPS
+  domain: undefined // specifies those hosts to which the cookie will be sent.
  },
  jwt: {
   header: { typ: 'access' }, // by default is an access token but can be any type. This is not a typo!
